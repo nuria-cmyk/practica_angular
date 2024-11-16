@@ -53,8 +53,34 @@ p {
     margin-bottom: 10px;
 }
 
+select {
+    border: none;
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .categoria {
     color: slateblue;
+
+}
+
+.categoria-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.categoria-container select {
+    font-family: 'Instrument Serif';
+    font-size: 20px;
+    padding: 8px;
+    margin-right: 50px;
+    width: 150px;
 }
 
 

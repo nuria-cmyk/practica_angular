@@ -3,7 +3,6 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { PostsService } from '../../services/posts.service';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
-import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-formulario',
@@ -35,7 +34,12 @@ export class FormularioComponent {
 
     this.postsService.createPost(postNuevo)
 
-    Swal.fire({ title: 'Nuevo Post', text: '¡Tu post ha sido publicado con éxito!', icon: 'success' })
+    Swal.fire({
+      title: 'Nuevo',
+      text: '¡Tu post ha sido publicado con éxito!',
+      icon: 'success',
+      iconColor: '#6a5acd'
+    })
 
     this.router.navigateByUrl('posts')
   }

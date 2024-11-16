@@ -35,6 +35,25 @@ label {
 }
 
 .btn {
-    background-color: slateblue;
+    background-color: #6a5acd;
     color: white;
+}
+
+/* .swal2-title {
+    font-family: 'Instrument Serif' !important;
+    font-size: 18px !important;
+}
+
+.swal2-html-container {
+    font-family: 'Manrope' !important;
+}
+
+.swal2-popup.element.style {
+    font-family: 'Instrument Serif' !important;
+    font-size: 18px !important;
+} */
+
+.swal2-html-container {
+    font-family: 'Instrument Serif' !important;
+    font-size: 18px !important;
 }

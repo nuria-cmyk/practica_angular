@@ -14,8 +14,19 @@ export class ListaPostsComponent {
   postsService = inject(PostsService)
 
   arrPosts: IPost[] = []
+  arrCategorias: string[] = []
 
   ngOnInit() {
     this.arrPosts = this.postsService.getAll()
+    this.arrCategorias = this.postsService.getCategorias()
+  }
+
+  onChange(event: Event) {
+    const selector = event.target as HTMLSelectElement
+    if (selector.value === 'Todas') {
+      this.arrPosts = this.postsService.getAll()
+    } else {
+      this.arrPosts = this.postsService.getByCategory(selector.value)
+    }
   }
 }

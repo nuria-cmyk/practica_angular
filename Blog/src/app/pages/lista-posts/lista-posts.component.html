@@ -1,4 +1,12 @@
 <h1>You <span>Post It</span></h1>
+<div class="categoria-container">
+    <select id="categoria" class="form-select" (change)="onChange($event)">
+        <option value="Todas">Elige Categoría</option>
+        @for(option of arrCategorias; track $index){
+        <option>{{option}}</option>
+        }
+    </select>
+</div>
 <div class="container my-4">
     <div class="row">
         @for (post of arrPosts; track $index) {
