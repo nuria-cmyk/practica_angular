@@ -15,7 +15,10 @@ export class PostsService {
   getByCategory(category: string): IPost[] {
     return this.arrPosts.filter(post => post.categoria === category)
   }
-  
+
+  createPost(postNuevo: IPost) {
+    this.arrPosts.push(postNuevo)
+  }
 
 
 }
