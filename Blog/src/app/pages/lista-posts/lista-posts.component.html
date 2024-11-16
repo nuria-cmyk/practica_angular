@@ -13,9 +13,9 @@
         <article>
             <img [src]="post.imagen" [alt]="post.titulo" class="w-100">
             <small>{{post.autor}} {{post.fecha | date: 'dd-MM-yyyy'}}</small>
+            <p class="categoria">{{post.categoria}}</p>
             <h3>{{post.texto}}</h3>
             <p>{{post.texto}}</p>
-            <p class="categoria">{{post.categoria}}</p>
         </article>
         }
     </div>
