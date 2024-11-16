@@ -12,4 +12,10 @@ export class PostsService {
     return this.arrPosts
   }
 
+  getByCategory(category: string): IPost[] {
+    return this.arrPosts.filter(post => post.categoria === category)
+  }
+  
+
+
 }
