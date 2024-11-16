@@ -8,6 +8,8 @@ export class PostsService {
 
   private arrPosts: IPost[] = []
 
-  
+  getAll() {
+    return this.arrPosts
+  }
 
 }
