@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+
+    span {
+        font-family: 'Instrument Serif';
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    font-family: 'Manrope';
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: calc(33.333% - 20px);
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Instrument Serif';
+}
+
+article p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+article small {
+    font-size: 0.875rem;
+    color: #999;
+}
+
+article .categoria {
+    color: slateblue;
+}

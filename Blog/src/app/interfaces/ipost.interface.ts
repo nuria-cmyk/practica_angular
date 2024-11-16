@@ -1,5 +1,6 @@
 export interface IPost {
 
+    id: number;
     titulo: string;
     texto: string;
     autor: string;
