@@ -99,7 +99,7 @@ export class PostsService {
     }
   ]
 
-  getAll() {
+  getAll(): IPost[] {
     return this.posts
   }
 

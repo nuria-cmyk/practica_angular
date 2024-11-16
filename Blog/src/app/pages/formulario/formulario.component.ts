@@ -35,7 +35,7 @@ export class FormularioComponent {
     this.postsService.createPost(postNuevo)
 
     Swal.fire({
-      title: 'Nuevo',
+      title: 'Nuevo Post',
       text: '¡Tu post ha sido publicado con éxito!',
       icon: 'success',
       iconColor: '#6a5acd'

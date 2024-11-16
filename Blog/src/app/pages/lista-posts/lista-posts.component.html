@@ -9,7 +9,7 @@
 </div>
 <div class="container my-4">
     <div class="row">
-        @for (post of arrPosts; track $index) {
+        @for (post of arrPosts; track post.id) {
         <article>
             <img [src]="post.imagen" [alt]="post.titulo" class="w-100">
             <small>{{post.autor}} {{post.fecha | date: 'dd-MM-yyyy'}}</small>

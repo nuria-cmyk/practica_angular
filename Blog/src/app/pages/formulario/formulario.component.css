@@ -8,6 +8,7 @@ h1 {
 
     span {
         font-family: 'Instrument Serif';
+        border-bottom: 2px solid black;
     }
 }
 
@@ -24,7 +25,7 @@ form {
     max-width: 600px;
     margin-bottom: 50px;
     font-family: 'Instrument Serif';
-    /*     font-family: 'Manrope'; */
+
 }
 
 label {
@@ -37,6 +38,18 @@ label {
 .btn {
     background-color: #6a5acd;
     color: white;
+}
+
+@media (max-width: 760px) {
+    form {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    form {
+        margin: 20px;
+    }
 }
 
 /* .swal2-title {

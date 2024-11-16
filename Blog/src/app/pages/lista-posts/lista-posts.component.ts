@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { PostsService } from '../../services/posts.service';
 import { IPost } from '../../interfaces/ipost.interface';
 import { DatePipe } from '@angular/common';
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-lista-posts',
   standalone: true,
