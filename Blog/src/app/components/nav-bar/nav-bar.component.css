@@ -1,14 +1,13 @@
 .navbar {
     display: flex;
-    /* Añadido para alinear contenido */
     align-items: center;
     justify-content: space-between;
-    /* Espacio entre el logo y los enlaces */
     padding: 10px 20px;
     font-family: 'Instrument Serif';
 }
 
 .logo {
+    margin: 0;
     font-size: 40px;
     font-weight: bolder;
 }
@@ -20,7 +19,6 @@ ul {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    /* Espacio entre los enlaces */
 }
 
 .nav-link {

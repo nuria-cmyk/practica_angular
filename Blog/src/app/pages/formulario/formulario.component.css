@@ -51,22 +51,3 @@ label {
         margin: 20px;
     }
 }
-
-/* .swal2-title {
-    font-family: 'Instrument Serif' !important;
-    font-size: 18px !important;
-}
-
-.swal2-html-container {
-    font-family: 'Manrope' !important;
-}
-
-.swal2-popup.element.style {
-    font-family: 'Instrument Serif' !important;
-    font-size: 18px !important;
-} */
-
-.swal2-html-container {
-    font-family: 'Instrument Serif' !important;
-    font-size: 18px !important;
-}
